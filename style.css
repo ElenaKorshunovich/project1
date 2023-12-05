@@ -1,0 +1,149 @@
+*{
+    font-family:Montserrat; /*Почему не применяется шрифт через универсальный селектор?*/
+}
+p{
+    font-family:Montserrat;
+}
+h1{
+    font-size:25px;
+    font-family:Montserrat;
+    font-weight:600;
+}
+h2{
+    font-size: 20px;
+    font-family:Montserrat;
+    font-weight:600;
+}
+.header{
+    background-color: #6B99C3;
+}
+.center{
+    min-width:600px;
+    max-width:1200px;
+    width: 800px;
+    margin:auto;
+}
+.title1{
+    text-align:center;
+    padding:60px;
+    color:#E4E5EA;
+}
+.navigation{
+    padding:10px; 
+    display: flex;
+    justify-content:center;
+    font-size:15px;
+    font-family:Montserrat;
+}
+a{
+    font-size:15px;
+    font-family:Montserrat;
+    color:#16354D;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color:#E4E5EA;
+}
+.title{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#6B99C3;
+}
+.my-info{
+    background-color:#E4E5EA;
+}
+.text{
+    font-size:14px;
+    color:#6B99C3;
+    font-family:Montserrat;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.my-foto{
+    width:400px;
+    height:350px;
+    object-fit:cover;
+    object-position:right;
+    border-radius:50px;
+    margin:auto;
+    display:block;
+    padding-bottom: 15px;
+}
+.all-skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch; /* Почему не включается align-content? Дело в высоте контейнера?*/
+}
+.skills{
+    background-color:#6B99C3;
+    border-radius:50px;
+    display:inline-block;
+    padding:8px;
+    margin:8px;
+    color:#E4E5EA;
+}
+.my-strengths{
+    display: flex;
+    justify-content: center;
+}
+.strengths{
+    display: inline-block;
+    border-radius:50px;
+    color:#E4E5EA;
+}
+.strengths1{
+    padding: 5px;
+    margin: 8px;
+    background-color: #6B99C3;
+    border-radius: 50px;
+    box-sizing: border-box;
+    list-style-type:square;
+}
+.my-projects{
+    display: flex;
+    justify-content: center;
+}
+.project{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 20px;
+    margin: 15px;
+}
+.name-project{
+    text-align: center;
+    color: #6B99C3;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #6B99C3;
+}
+.last-title{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#E4E5EA;
+}
+.contact{
+color: #E4E5EA;
+padding: 10px;
+display: flex;
+}
+.contact1{
+    display: block;
+}
+.picture{
+    width: 17px;
+    height:17px;
+    padding-right: 10px;
+}
+.vk{
+    padding: 0px;
+    color: #E4E5EA;
+}
+html{
+    scroll-behavior: smooth;
+}
